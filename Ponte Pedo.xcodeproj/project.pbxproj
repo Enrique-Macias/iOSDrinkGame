@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB55706299842D1004C8369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55705299842D1004C8369 /* AppDelegate.swift */; };
+		ECB55708299842D1004C8369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55707299842D1004C8369 /* SceneDelegate.swift */; };
+		ECB5570A299842D1004C8369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55709299842D1004C8369 /* ViewController.swift */; };
+		ECB5570D299842D1004C8369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB5570B299842D1004C8369 /* Main.storyboard */; };
+		ECB5570F299842D3004C8369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB5570E299842D3004C8369 /* Assets.xcassets */; };
+		ECB55712299842D3004C8369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB55710299842D3004C8369 /* LaunchScreen.storyboard */; };
+		ECB5571D299842D3004C8369 /* Ponte_PedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5571C299842D3004C8369 /* Ponte_PedoTests.swift */; };
+		ECB55727299842D3004C8369 /* Ponte_PedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55726299842D3004C8369 /* Ponte_PedoUITests.swift */; };
+		ECB55729299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55728299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB55719299842D3004C8369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB556FA299842D1004C8369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB55701299842D1004C8369;
+			remoteInfo = "Ponte Pedo";
+		};
+		ECB55723299842D3004C8369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB556FA299842D1004C8369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB55701299842D1004C8369;
+			remoteInfo = "Ponte Pedo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB55702299842D1004C8369 /* Ponte Pedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ponte Pedo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB55705299842D1004C8369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB55707299842D1004C8369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECB55709299842D1004C8369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB5570C299842D1004C8369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB5570E299842D3004C8369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB55711299842D3004C8369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB55713299842D3004C8369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB55718299842D3004C8369 /* Ponte PedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ponte PedoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB5571C299842D3004C8369 /* Ponte_PedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ponte_PedoTests.swift; sourceTree = "<group>"; };
+		ECB55722299842D3004C8369 /* Ponte PedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ponte PedoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB55726299842D3004C8369 /* Ponte_PedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ponte_PedoUITests.swift; sourceTree = "<group>"; };
+		ECB55728299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ponte_PedoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB556FF299842D1004C8369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55715299842D3004C8369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB5571F299842D3004C8369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB556F9299842D1004C8369 = {
+			isa = PBXGroup;
+			children = (
+				ECB55704299842D1004C8369 /* Ponte Pedo */,
+				ECB5571B299842D3004C8369 /* Ponte PedoTests */,
+				ECB55725299842D3004C8369 /* Ponte PedoUITests */,
+				ECB55703299842D1004C8369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB55703299842D1004C8369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55702299842D1004C8369 /* Ponte Pedo.app */,
+				ECB55718299842D3004C8369 /* Ponte PedoTests.xctest */,
+				ECB55722299842D3004C8369 /* Ponte PedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB55704299842D1004C8369 /* Ponte Pedo */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55705299842D1004C8369 /* AppDelegate.swift */,
+				ECB55707299842D1004C8369 /* SceneDelegate.swift */,
+				ECB55709299842D1004C8369 /* ViewController.swift */,
+				ECB5570B299842D1004C8369 /* Main.storyboard */,
+				ECB5570E299842D3004C8369 /* Assets.xcassets */,
+				ECB55710299842D3004C8369 /* LaunchScreen.storyboard */,
+				ECB55713299842D3004C8369 /* Info.plist */,
+			);
+			path = "Ponte Pedo";
+			sourceTree = "<group>";
+		};
+		ECB5571B299842D3004C8369 /* Ponte PedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB5571C299842D3004C8369 /* Ponte_PedoTests.swift */,
+			);
+			path = "Ponte PedoTests";
+			sourceTree = "<group>";
+		};
+		ECB55725299842D3004C8369 /* Ponte PedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55726299842D3004C8369 /* Ponte_PedoUITests.swift */,
+				ECB55728299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift */,
+			);
+			path = "Ponte PedoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB55701299842D1004C8369 /* Ponte Pedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB5572C299842D3004C8369 /* Build configuration list for PBXNativeTarget "Ponte Pedo" */;
+			buildPhases = (
+				ECB556FE299842D1004C8369 /* Sources */,
+				ECB556FF299842D1004C8369 /* Frameworks */,
+				ECB55700299842D1004C8369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ponte Pedo";
+			productName = "Ponte Pedo";
+			productReference = ECB55702299842D1004C8369 /* Ponte Pedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB55717299842D3004C8369 /* Ponte PedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB5572F299842D3004C8369 /* Build configuration list for PBXNativeTarget "Ponte PedoTests" */;
+			buildPhases = (
+				ECB55714299842D3004C8369 /* Sources */,
+				ECB55715299842D3004C8369 /* Frameworks */,
+				ECB55716299842D3004C8369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB5571A299842D3004C8369 /* PBXTargetDependency */,
+			);
+			name = "Ponte PedoTests";
+			productName = "Ponte PedoTests";
+			productReference = ECB55718299842D3004C8369 /* Ponte PedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB55721299842D3004C8369 /* Ponte PedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB55732299842D3004C8369 /* Build configuration list for PBXNativeTarget "Ponte PedoUITests" */;
+			buildPhases = (
+				ECB5571E299842D3004C8369 /* Sources */,
+				ECB5571F299842D3004C8369 /* Frameworks */,
+				ECB55720299842D3004C8369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB55724299842D3004C8369 /* PBXTargetDependency */,
+			);
+			name = "Ponte PedoUITests";
+			productName = "Ponte PedoUITests";
+			productReference = ECB55722299842D3004C8369 /* Ponte PedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB556FA299842D1004C8369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ECB55701299842D1004C8369 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ECB55717299842D3004C8369 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ECB55701299842D1004C8369;
+					};
+					ECB55721299842D3004C8369 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ECB55701299842D1004C8369;
+					};
+				};
+			};
+			buildConfigurationList = ECB556FD299842D1004C8369 /* Build configuration list for PBXProject "Ponte Pedo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB556F9299842D1004C8369;
+			productRefGroup = ECB55703299842D1004C8369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB55701299842D1004C8369 /* Ponte Pedo */,
+				ECB55717299842D3004C8369 /* Ponte PedoTests */,
+				ECB55721299842D3004C8369 /* Ponte PedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB55700299842D1004C8369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB55712299842D3004C8369 /* LaunchScreen.storyboard in Resources */,
+				ECB5570F299842D3004C8369 /* Assets.xcassets in Resources */,
+				ECB5570D299842D1004C8369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55716299842D3004C8369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55720299842D3004C8369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB556FE299842D1004C8369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB5570A299842D1004C8369 /* ViewController.swift in Sources */,
+				ECB55706299842D1004C8369 /* AppDelegate.swift in Sources */,
+				ECB55708299842D1004C8369 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55714299842D3004C8369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB5571D299842D3004C8369 /* Ponte_PedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB5571E299842D3004C8369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB55727299842D3004C8369 /* Ponte_PedoUITests.swift in Sources */,
+				ECB55729299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB5571A299842D3004C8369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB55701299842D1004C8369 /* Ponte Pedo */;
+			targetProxy = ECB55719299842D3004C8369 /* PBXContainerItemProxy */;
+		};
+		ECB55724299842D3004C8369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB55701299842D1004C8369 /* Ponte Pedo */;
+			targetProxy = ECB55723299842D3004C8369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB5570B299842D1004C8369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB5570C299842D1004C8369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB55710299842D3004C8369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB55711299842D3004C8369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB5572A299842D3004C8369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB5572B299842D3004C8369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB5572D299842D3004C8369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37A8UMU294;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ponte Pedo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EnriqueMacias.Ponte-Pedo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB5572E299842D3004C8369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37A8UMU294;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ponte Pedo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EnriqueMacias.Ponte-Pedo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB55730299842D3004C8369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37A8UMU294;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EnriqueMacias.Ponte-PedoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponte Pedo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ponte Pedo";
+			};
+			name = Debug;
+		};
+		ECB55731299842D3004C8369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37A8UMU294;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EnriqueMacias.Ponte-PedoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponte Pedo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ponte Pedo";
+			};
+			name = Release;
+		};
+		ECB55733299842D3004C8369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37A8UMU294;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EnriqueMacias.Ponte-PedoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ponte Pedo";
+			};
+			name = Debug;
+		};
+		ECB55734299842D3004C8369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37A8UMU294;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EnriqueMacias.Ponte-PedoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ponte Pedo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB556FD299842D1004C8369 /* Build configuration list for PBXProject "Ponte Pedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB5572A299842D3004C8369 /* Debug */,
+				ECB5572B299842D3004C8369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB5572C299842D3004C8369 /* Build configuration list for PBXNativeTarget "Ponte Pedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB5572D299842D3004C8369 /* Debug */,
+				ECB5572E299842D3004C8369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB5572F299842D3004C8369 /* Build configuration list for PBXNativeTarget "Ponte PedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB55730299842D3004C8369 /* Debug */,
+				ECB55731299842D3004C8369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB55732299842D3004C8369 /* Build configuration list for PBXNativeTarget "Ponte PedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB55733299842D3004C8369 /* Debug */,
+				ECB55734299842D3004C8369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB556FA299842D1004C8369 /* Project object */;
+}
