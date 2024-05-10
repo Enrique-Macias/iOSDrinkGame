@@ -5,6 +5,16 @@
 ## Description
 "Ponte Pedo" is an engaging and fun drinking game designed for two or more players. The game features a digital deck of cards displayed on the screen. Each card is linked to a specific challenge that the players must undertake. The game continues until all the cards in the deck have been played, making for a lively and entertaining experience with friends.
 
+## Screenshots del Juego
+
+<div style="display:flex; justify-content:space-between; align-items:center;">
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/AppStore_PP(1242px%20x%202688px)/1.png" width="160" /> 
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/AppStore_PP(1242px%20x%202688px)/2.png" width="160" />
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/AppStore_PP(1242px%20x%202688px)/3.png" width="160" />
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/AppStore_PP(1242px%20x%202688px)/4.png" width="160" />
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/AppStore_PP(1242px%20x%202688px)/5.png" width="160" />
+</div>
+
 ## Number of Players
 Minimum: 2 players
 There is no maximum number of players, but the game is best enjoyed with a small to medium-sized group.
