@@ -53,8 +53,8 @@ Each card drawn from the deck initiates a specific challenge as described below:
 The game concludes when the last card is drawn, marking a fun-filled session of challenges and laughter.
 
 <div style="display:flex; justify-content:space-between; align-items:center;">
-  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/IG-Feed%205-6/1.png" height="450" /> 
-  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/IG-Feed%205-6/2.png" height="450" />
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/IG-Feed%205-6/1.png" height="400" /> 
+  <img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/IG-Feed%205-6/2.png" height="400" />
 </div>
 
 ## License
