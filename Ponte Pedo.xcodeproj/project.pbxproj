@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		ECB55706299842D1004C8369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55705299842D1004C8369 /* AppDelegate.swift */; };
 		ECB55708299842D1004C8369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55707299842D1004C8369 /* SceneDelegate.swift */; };
-		ECB5570A299842D1004C8369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55709299842D1004C8369 /* ViewController.swift */; };
+		ECB5570A299842D1004C8369 /* AnimatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55709299842D1004C8369 /* AnimatedViewController.swift */; };
 		ECB5570D299842D1004C8369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB5570B299842D1004C8369 /* Main.storyboard */; };
 		ECB5570F299842D3004C8369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB5570E299842D3004C8369 /* Assets.xcassets */; };
 		ECB55712299842D3004C8369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB55710299842D3004C8369 /* LaunchScreen.storyboard */; };
 		ECB5571D299842D3004C8369 /* Ponte_PedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5571C299842D3004C8369 /* Ponte_PedoTests.swift */; };
 		ECB55727299842D3004C8369 /* Ponte_PedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55726299842D3004C8369 /* Ponte_PedoUITests.swift */; };
 		ECB55729299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55728299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift */; };
+		ECB5573629984502004C8369 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5573529984502004C8369 /* HomeViewController.swift */; };
+		ECB55738299849ED004C8369 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55737299849ED004C8369 /* RulesViewController.swift */; };
+		ECB5573A29984D24004C8369 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5573929984D24004C8369 /* StartViewController.swift */; };
+		ECB5573C29985935004C8369 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5573B29985935004C8369 /* InformationViewController.swift */; };
+		ECB5573E29985B8C004C8369 /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5573D29985B8C004C8369 /* ThanksViewController.swift */; };
+		ECBD816A299DE1D1009E113B /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD8169299DE1D1009E113B /* ChallengeViewController.swift */; };
+		ECC33A8329AAD881006DE051 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECC33A8229AAD881006DE051 /* Poppins-Regular.ttf */; };
+		ECC33A8529AAD92F006DE051 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECC33A8429AAD92F006DE051 /* Poppins-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		ECB55702299842D1004C8369 /* Ponte Pedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ponte Pedo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB55705299842D1004C8369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB55707299842D1004C8369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECB55709299842D1004C8369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB55709299842D1004C8369 /* AnimatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedViewController.swift; sourceTree = "<group>"; };
 		ECB5570C299842D1004C8369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB5570E299842D3004C8369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB55711299842D3004C8369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		ECB55722299842D3004C8369 /* Ponte PedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ponte PedoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB55726299842D3004C8369 /* Ponte_PedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ponte_PedoUITests.swift; sourceTree = "<group>"; };
 		ECB55728299842D3004C8369 /* Ponte_PedoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ponte_PedoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECB5573529984502004C8369 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ECB55737299849ED004C8369 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		ECB5573929984D24004C8369 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		ECB5573B29985935004C8369 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		ECB5573D29985B8C004C8369 /* ThanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		ECBD8169299DE1D1009E113B /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		ECC33A8229AAD881006DE051 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		ECC33A8429AAD92F006DE051 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,19 @@
 			children = (
 				ECB55705299842D1004C8369 /* AppDelegate.swift */,
 				ECB55707299842D1004C8369 /* SceneDelegate.swift */,
-				ECB55709299842D1004C8369 /* ViewController.swift */,
+				ECB55709299842D1004C8369 /* AnimatedViewController.swift */,
 				ECB5570B299842D1004C8369 /* Main.storyboard */,
 				ECB5570E299842D3004C8369 /* Assets.xcassets */,
 				ECB55710299842D3004C8369 /* LaunchScreen.storyboard */,
+				ECC33A8229AAD881006DE051 /* Poppins-Regular.ttf */,
+				ECC33A8429AAD92F006DE051 /* Poppins-Bold.ttf */,
 				ECB55713299842D3004C8369 /* Info.plist */,
+				ECB5573529984502004C8369 /* HomeViewController.swift */,
+				ECB55737299849ED004C8369 /* RulesViewController.swift */,
+				ECB5573929984D24004C8369 /* StartViewController.swift */,
+				ECB5573B29985935004C8369 /* InformationViewController.swift */,
+				ECB5573D29985B8C004C8369 /* ThanksViewController.swift */,
+				ECBD8169299DE1D1009E113B /* ChallengeViewController.swift */,
 			);
 			path = "Ponte Pedo";
 			sourceTree = "<group>";
@@ -233,7 +257,9 @@
 			files = (
 				ECB55712299842D3004C8369 /* LaunchScreen.storyboard in Resources */,
 				ECB5570F299842D3004C8369 /* Assets.xcassets in Resources */,
+				ECC33A8529AAD92F006DE051 /* Poppins-Bold.ttf in Resources */,
 				ECB5570D299842D1004C8369 /* Main.storyboard in Resources */,
+				ECC33A8329AAD881006DE051 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB5570A299842D1004C8369 /* ViewController.swift in Sources */,
+				ECB55738299849ED004C8369 /* RulesViewController.swift in Sources */,
+				ECBD816A299DE1D1009E113B /* ChallengeViewController.swift in Sources */,
+				ECB5570A299842D1004C8369 /* AnimatedViewController.swift in Sources */,
+				ECB5573C29985935004C8369 /* InformationViewController.swift in Sources */,
 				ECB55706299842D1004C8369 /* AppDelegate.swift in Sources */,
 				ECB55708299842D1004C8369 /* SceneDelegate.swift in Sources */,
+				ECB5573E29985B8C004C8369 /* ThanksViewController.swift in Sources */,
+				ECB5573629984502004C8369 /* HomeViewController.swift in Sources */,
+				ECB5573A29984D24004C8369 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +475,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +503,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
