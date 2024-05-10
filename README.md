@@ -1,3 +1,5 @@
+<img src="https://github.com/Enrique-Macias/iOSDrinkGame/blob/main/Marketing%20Content%20PP/PP_IG-Feed1-3.png">
+
 # Ponte Pedo
 
 ## Description
